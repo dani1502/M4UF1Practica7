@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE person[
+<!ELEMENT person (basicInfo, socialMedia, friends)>
+<!ELEMENT basicInfo (name, surname, age, height, job, favourite_smile, pets, adress)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)> 
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT job (#PCDATA)>
+<!ELEMENT favourite_smile (#PCDATA)>
+<!ELEMENT pets (#PCDATA)>
+<!ELEMENT adress (street, number, cp)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT socialMedia (instagram, twitter)>
+<!ELEMENT instagram (user, email)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST socialMedia twitter CDATA false>
+<!ELEMENT friends (friend)>
+<!ELEMENT friend (user, surname, age)>
+]>
+
+<person>
+    <basicInfo>
+        <name>Peter</name>
+        <surname>Jones</surname>
+        <age>19</age>
+        <height>1.78</height>
+        <job>Informàtic</job>
+        <favourite_smile>Hearth</favourite_smile>
+        <pets>black cat, chiwawa</pets>
+        <adress>
+            <street>Pau Claris</street>
+            <number>121</number>
+            <cp>08012</cp>
+        </adress>
+    </basicInfo>
+    <socialMedia twitter="false">
+        <instagram>
+                <user>pjones22</user>
+                <email>pjones22@gmail.com</email>
+        </instagram>
+    </socialMedia>
+    <friends>
+        <friend>
+            <name>Jhon</name>
+            <surname>Doe</surname>
+            <age>35</age>
+        </friend>
+        <friend>
+            <name>Anna</name>
+            <surname>Smith</surname>
+            <age></age>
+        </friend>
+    </friends>
+</person>

@@ -1,0 +1,83 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "nom": "Bulbasaur",
+        "tipus": ["Planta", "Venen"],
+        "pes": {"valor": 6.9, "unitat": "kg"},
+        "altura": {"valor": 0.7, "unitat": "m"},
+        "estadistiques": {
+          "velocitat": 45,
+          "fortalesa": 49,
+          "precisio": 65,
+          "resistencia": 65
+        },
+        "moviments": [
+          {
+            "nom": "Llavors",
+            "descripcio": "Llança llavors a l'enemic",
+            "potencia": 40,
+            "contacte": true
+          },
+          {
+            "nom": "Gruixuda",
+            "descripcio": "Augmenta la defensa del pokémon",
+            "potencia": 0,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://pokemon.fandom.com/es/wiki/Bulbasaur",
+        "evolucions": [
+          {
+            "id": 2,
+            "nivell": 16
+          },
+          {
+            "id": 3,
+            "nivell": 32
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nom": "Ivysaur",
+        "tipus": ["Planta", "Venen"],
+        "pes": {"valor": 13.0, "unitat": "kg"},
+        "altura": {"valor": 1.0, "unitat": "m"},
+        "estadistiques": {
+          "velocitat": 60,
+          "fortalesa": 62,
+          "precisio": 80,
+          "resistencia": 80
+        },
+        "moviments": [
+          {
+            "nom": "Llavors",
+            "descripcio": "Llança llavors a l'enemic",
+            "potencia": 40,
+            "contacte": true
+          },
+          {
+            "nom": "Gruixuda",
+            "descripcio": "Augmenta la defensa del pokémon",
+            "potencia": 0,
+            "contacte": false
+          },
+          {
+            "nom": "Latigazo",
+            "descripcio": "Golpeja l'enemic amb vinclaments forts",
+            "potencia": 55,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://pokemon.fandom.com/es/wiki/Ivysaur",
+        "evolucions": [
+          {
+            "id": 3,
+            "nivell": 32
+          }
+        ]
+      }
+    ]
+  }
+  
